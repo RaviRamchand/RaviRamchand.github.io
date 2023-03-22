@@ -1,0 +1,328 @@
+body {
+    background-color: #232323;
+}
+
+.menuBar {
+    color: white;
+    display:grid;
+    align-items: center;
+    font-family: "Helvetica", "Times New Roman";
+}
+
+.nameLogo{
+    color: white;
+    border: 2px solid white;
+    width:110px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right:90px;
+
+}
+
+.topBar{
+    display:grid; 
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.mainBody{
+    text-align: center;
+    color: white;
+    font-family: "Helvetica", "Times New Roman";
+}
+
+.menuBar a{
+    text-decoration: none;
+    color:white;
+}
+
+.profilePic img{
+    width:260px;
+}
+
+.motto{
+    color: white;
+    font-family: "Helvetica", "Times New Roman";
+    display:grid;
+    justify-content: center;
+    background-color: #021f54;
+    width:100%;
+}
+
+.java img{
+    width:90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+.sql img{
+    width:80px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.c img{
+    width:70px;
+    border-style: solid;
+    border-color: white;
+    border-radius:50%;
+}
+
+.html img{
+    width:90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+.css img{
+    width:90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+.javascript img{
+    width:90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+.profilePic{
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+}
+
+.profilePic > span{
+    text-align: center;
+
+}
+
+.me{
+    width: 100px;
+}
+
+.menuBar{
+    display:grid; 
+    grid-template-columns: auto auto auto;
+}
+
+.menuBar img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.aboutSection{
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.aboutSection h3{
+    color:white;
+    width: 750px;
+}
+
+.aboutSection img{
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+.resume{
+    height:45px;
+    width: 200px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    border-radius: 50%;
+}
+
+.noImg{
+    display:grid;
+    justify-content: center;
+}
+
+.noImg img{
+    width:400px;
+}
+
+.projectMessage{
+    text-align: center;
+}
+
+.projectMessage .error{
+    color: red;
+}
+
+.projectMessage h3{
+    color: white;
+}
+
+.menuSelect{
+    text-decoration: underline;
+}
+
+.resume a:hover{
+    color:white;
+}
+
+.resume button{
+    background-color: gray;
+}
+
+@media only screen and (max-width: 1260px){
+    .me img{
+        width: 200px;
+    }
+
+    .aboutSection img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1113px){
+    .me img{
+        width: 170px;
+    }
+
+    .aboutSection{
+        display: block;
+        text-align: center;
+    }
+
+    .aboutSection h3{
+        width: 100%;
+    }
+
+    .noImg img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .me img{
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .me img{
+        width: 150px;   
+    }
+}
+
+@media only screen and (max-width: 892px){
+    .topBar .menuBar li{
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 832px){
+    .me img{
+        width: 140px;
+    }
+
+    .java img{
+        width:70px;
+    }
+    .c img{
+        width:70px;
+    }
+    .sql img{
+        width: 70px;
+    }
+
+    .html img{
+        width: 70px;
+    }
+
+    .css img{
+        width: 70px;
+    }
+
+    .javascript img{
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 772px){
+    .topBar .menuBar li{
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 712px){
+    .topBar .menuBar ul{
+        font-size: 13px;
+    }
+    
+    .topBar .menuBar li{
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 683px){
+    .topBar .menuBar ul{
+        font-size: 13px;
+    }
+    
+    .topBar .menuBar li{
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 685px){
+    .me img{
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 668px){
+    .topBar .menuBar ul{
+        font-size: 13px;
+    }
+    .topBar .menuBar li{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .profilePic {
+        display: block;
+        white-space: pre;
+        text-align: center;
+    }
+
+    .nameLogo{
+        display:grid;
+        align-items: center;
+    }
+
+    .menuBar ul{
+        display: grid;
+        justify-content: center;
+    }
+}
