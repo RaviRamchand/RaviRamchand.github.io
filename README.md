@@ -1,5 +1,5 @@
 # RaviRamchand.github.io
 
-Can view website <a href="https://raviramchand.github.io/" target_blank>Here</a>
+Can view website <a href="https://raviramchand.github.io/" target="_blank">Here</a>
 
-Note: This site is still in development. 
+Note: This website is still in development. 
