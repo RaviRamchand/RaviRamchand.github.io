@@ -135,6 +135,7 @@ li {
 .aboutSection h3{
     color:white;
     width: 750px;
+    font-weight: normal;
 }
 
 .aboutSection img{
