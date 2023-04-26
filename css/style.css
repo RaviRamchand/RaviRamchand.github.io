@@ -200,22 +200,22 @@ a:hover {
     justify-content: center;
 }
 
-.projects h3{
+.projects h3 {
     color: white;
     width: 630px;
     font-weight: normal;
-    padding-left: 50pt; 
+    padding-left: 50pt;
     padding-right: 50pt;
 }
 
-.projects h3 div{
+.projects h3 div {
     text-align: center;
     font-weight: normal;
     margin-bottom: 15px;
 }
 
-.projects a{
-    color: blue; 
+.projects a {
+    color: blue;
     text-decoration: underline;
 }
 
@@ -226,6 +226,12 @@ a:hover {
 
     .aboutSection img {
         width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1295px) {
+    .projects h3 {
+        width: 630px;
     }
 }
 
@@ -248,9 +254,38 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 1092px) {
+    .projects h3 {
+        width: 500px;
+        size: 13px;
+    }
+}
+
+@media only screen and (max-width: 964px) {
+    .projects h3 {
+        width: 400px;
+    }
+}
+
+
 @media only screen and (max-width: 920px) {
     .me img {
         width: 160px;
+    }
+
+    .projects {
+        grid-template-columns: auto;
+    }
+
+    .projects h3{
+        text-align: center;
+    }
+
+    video {
+        display: block;
+        margin: auto;
+        width: 220 px;
+        height: 120;
     }
 }
 
@@ -357,5 +392,11 @@ a:hover {
     .menuBar ul {
         display: grid;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 533px) {
+    .projects h3 {
+        width: auto;
     }
 }
