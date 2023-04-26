@@ -4,15 +4,15 @@ body {
 
 .menuBar {
     color: white;
-    display:grid;
+    display: grid;
     align-items: center;
     font-family: "Helvetica", "Times New Roman";
 }
 
-.nameLogo{
+.nameLogo {
     color: white;
     border: 2px solid white;
-    width:110px;
+    width: 110px;
     text-align: center;
 }
 
@@ -25,307 +25,336 @@ ul {
 
 li {
     float: left;
-    margin-right:90px;
+    margin-right: 90px;
 
 }
 
-.topBar{
-    display:grid; 
+.topBar {
+    display: grid;
     grid-template-columns: auto auto;
     grid-gap: 15px;
 }
 
-.mainBody{
+.mainBody {
     text-align: center;
     color: white;
     font-family: "Helvetica", "Times New Roman";
 }
 
-.menuBar a{
+.menuBar a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-.profilePic img{
-    width:260px;
+.profilePic img {
+    width: 260px;
 }
 
-.motto{
+.motto {
     color: white;
     font-family: "Helvetica", "Times New Roman";
-    display:grid;
+    display: grid;
     justify-content: center;
     background-color: #021f54;
-    width:100%;
+    width: 100%;
 }
 
-.java img{
-    width:90px;
+.java img {
+    width: 90px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
-.sql img{
-    width:80px;
+.sql img {
+    width: 80px;
     border-style: solid;
     border-color: white;
     border-radius: 50%;
 }
 
-.kotlin img{
-    width:80px;
+.kotlin img {
+    width: 80px;
     border-style: solid;
     border-color: white;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
-.html img{
-    width:90px;
+.html img {
+    width: 90px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
-.css img{
-    width:90px;
+.css img {
+    width: 90px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
-.javascript img{
-    width:90px;
+.javascript img {
+    width: 90px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
-.profilePic{
-    display: grid; 
+.profilePic {
+    display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     align-items: center;
 }
 
-.profilePic > span{
+.profilePic>span {
     text-align: center;
 
 }
 
-.me{
+.me {
     width: 100px;
 }
 
-.menuBar{
-    display:grid; 
+.menuBar {
+    display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.menuBar img{
+.menuBar img {
     width: 50px;
     border-radius: 50%;
 }
 
-.aboutSection{
-    display: grid; 
+.aboutSection {
+    display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
 }
 
-.aboutSection h3{
-    color:white;
+.aboutSection h3 {
+    color: white;
     width: 750px;
     font-weight: normal;
 }
 
-.aboutSection img{
+.aboutSection img {
     width: 400px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 
-.resume{
-    height:45px;
+.resume {
+    height: 45px;
     width: 200px;
     display: grid;
     justify-content: center;
     text-align: center;
-    width:100%;
+    width: 100%;
     border-radius: 50%;
 }
 
-.noImg{
-    display:grid;
+.noImg {
+    display: grid;
     justify-content: center;
 }
 
-.noImg img{
-    width:400px;
+.noImg img {
+    width: 400px;
 }
 
-.projectMessage{
+.projectMessage {
     text-align: center;
 }
 
-.projectMessage .error{
+.projectMessage .error {
     color: red;
 }
 
-.projectMessage h3{
+.projectMessage h3 {
     color: white;
 }
 
-.menuSelect{
+.menuSelect {
     text-decoration: underline;
 }
 
-.resume a:hover{
-    color:white;
+.resume a:hover {
+    color: white;
 }
 
-.resume button{
+.resume button {
     background-color: gray;
 }
 
-@media only screen and (max-width: 1260px){
-    .me img{
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.projects h3{
+    color: white;
+    width: 630px;
+    font-weight: normal;
+    padding-left: 50pt; 
+    padding-right: 50pt;
+}
+
+.projects h3 div{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.projects a{
+    color: blue; 
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1260px) {
+    .me img {
         width: 200px;
     }
 
-    .aboutSection img{
+    .aboutSection img {
         width: 300px;
     }
 }
 
-@media only screen and (max-width: 1113px){
-    .me img{
+@media only screen and (max-width: 1113px) {
+    .me img {
         width: 170px;
     }
 
-    .aboutSection{
+    .aboutSection {
         display: block;
         text-align: center;
     }
 
-    .aboutSection h3{
+    .aboutSection h3 {
         width: 100%;
     }
 
-    .noImg img{
+    .noImg img {
         width: 300px;
     }
 }
 
-@media only screen and (max-width: 920px){
-    .me img{
+@media only screen and (max-width: 920px) {
+    .me img {
         width: 160px;
     }
 }
 
-@media only screen and (max-width: 840px){
-    .me img{
-        width: 150px;   
+@media only screen and (max-width: 840px) {
+    .me img {
+        width: 150px;
     }
 }
 
-@media only screen and (max-width: 892px){
-    .topBar .menuBar li{
+@media only screen and (max-width: 892px) {
+    .topBar .menuBar li {
         margin-right: 50px;
     }
 }
 
-@media only screen and (max-width: 832px){
-    .me{
+@media only screen and (max-width: 832px) {
+    .me {
         text-align: center;
     }
-    .me img{
+
+    .me img {
         width: 140px;
     }
 
-    .java img{
-        width:70px;
-    }
-    .kotlin img{
-        width:70px;
-    }
-    .sql img{
+    .java img {
         width: 70px;
     }
 
-    .html img{
+    .kotlin img {
         width: 70px;
     }
 
-    .css img{
+    .sql img {
         width: 70px;
     }
 
-    .javascript img{
+    .html img {
+        width: 70px;
+    }
+
+    .css img {
+        width: 70px;
+    }
+
+    .javascript img {
         width: 70px;
     }
 }
 
-@media only screen and (max-width: 772px){
-    .topBar .menuBar li{
+@media only screen and (max-width: 772px) {
+    .topBar .menuBar li {
         margin-right: 30px;
     }
 }
 
-@media only screen and (max-width: 712px){
-    .topBar .menuBar ul{
+@media only screen and (max-width: 712px) {
+    .topBar .menuBar ul {
         font-size: 13px;
     }
-    
-    .topBar .menuBar li{
+
+    .topBar .menuBar li {
         margin-right: 40px;
     }
 }
 
-@media only screen and (max-width: 683px){
-    .topBar .menuBar ul{
+@media only screen and (max-width: 683px) {
+    .topBar .menuBar ul {
         font-size: 13px;
     }
-    
-    .topBar .menuBar li{
+
+    .topBar .menuBar li {
         margin-right: 30px;
     }
 }
 
-@media only screen and (max-width: 685px){
-    .me img{
+@media only screen and (max-width: 685px) {
+    .me img {
         width: 130px;
     }
 }
 
-@media only screen and (max-width: 668px){
-    .topBar .menuBar ul{
+@media only screen and (max-width: 668px) {
+    .topBar .menuBar ul {
         font-size: 13px;
     }
-    .topBar .menuBar li{
+
+    .topBar .menuBar li {
         margin-right: 20px;
     }
 }
 
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 630px) {
     .profilePic {
         display: block;
         white-space: pre;
         text-align: center;
     }
 
-    .nameLogo{
-        display:grid;
+    .nameLogo {
+        display: grid;
         align-items: center;
     }
 
-    .menuBar ul{
+    .menuBar ul {
         display: grid;
         justify-content: center;
     }
