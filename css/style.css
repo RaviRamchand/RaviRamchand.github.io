@@ -212,6 +212,7 @@ a:hover {
     text-align: center;
     font-weight: normal;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .projects a {
@@ -221,6 +222,7 @@ a:hover {
 
 .projects h3 a{
     margin-right: 15px;
+    color: white;
 } 
 
 @media only screen and (max-width: 1260px) {
@@ -268,6 +270,12 @@ a:hover {
 @media only screen and (max-width: 964px) {
     .projects h3 {
         width: 400px;
+    }
+
+    .projects h3 a{
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
     }
 }
 
