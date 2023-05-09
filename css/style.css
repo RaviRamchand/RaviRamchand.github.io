@@ -190,8 +190,9 @@ a:hover {
     color: white;
 }
 
-.resume button {
-    background-color: gray;
+.resume a button {
+    width: 200px;
+    height: 45px;
 }
 
 .projects {
