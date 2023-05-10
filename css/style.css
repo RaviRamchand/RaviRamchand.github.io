@@ -221,10 +221,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.projects h3 a{
+.projects h3 a {
     margin-right: 15px;
     color: orange;
-} 
+}
 
 @media only screen and (max-width: 1260px) {
     .me img {
@@ -273,7 +273,7 @@ a:hover {
         width: 400px;
     }
 
-    .projects h3 a{
+    .projects h3 a {
         display: block;
         margin-bottom: 5px;
         text-align: center;
@@ -290,7 +290,7 @@ a:hover {
         grid-template-columns: auto;
     }
 
-    .projects h3{
+    .projects h3 {
         text-align: center;
     }
 
@@ -411,5 +411,42 @@ a:hover {
 @media only screen and (max-width: 533px) {
     .projects h3 {
         width: auto;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .profilePic img {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .me img {
+        width: 140px;
+    }
+
+    .java img {
+        width: 70px;
+    }
+
+    .kotlin img {
+        width: 70px;
+    }
+
+    .sql img {
+        width: 70px;
+    }
+
+    .html img {
+        width: 70px;
+    }
+
+    .css img {
+        width: 70px;
+    }
+
+    .javascript img {
+        width: 70px;
     }
 }
