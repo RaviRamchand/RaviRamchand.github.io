@@ -414,7 +414,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 541px) {
+@media only screen and (max-width: 630px) {
     .profilePic img {
         width: auto;
         display: block;
@@ -448,5 +448,9 @@ a:hover {
 
     .javascript img {
         width: 70px;
+    }
+
+    .topBar .menuBar ul{
+        margin-right: auto;
     }
 }
