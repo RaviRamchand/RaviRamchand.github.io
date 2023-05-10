@@ -53,10 +53,13 @@ li {
 .motto {
     color: white;
     font-family: "Helvetica", "Times New Roman";
-    display: grid;
-    justify-content: center;
-    background-color: #021f54;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: #021f54;
+    color: white;
+    text-align: center;
 }
 
 .java img {
@@ -421,7 +424,7 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .me img {
         width: 140px;
     }
@@ -450,7 +453,12 @@ a:hover {
         width: 70px;
     }
 
-    .topBar .menuBar ul{
+    .topBar .menuBar ul {
         margin-right: auto;
+    }
+
+    .motto {
+        display: grid;
+        position: relative;
     }
 }
