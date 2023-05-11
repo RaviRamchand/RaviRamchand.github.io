@@ -1,5 +1,5 @@
 body {
-    background-color: #232323;
+    background-color: #313131;
 }
 
 .menuBar {
@@ -457,6 +457,14 @@ a:hover {
         margin-right: auto;
     }
 
+    .motto {
+        display: grid;
+        position: relative;
+    }
+}
+
+@media screen and (max-height: 413px),
+screen and (max-width:915px) {
     .motto {
         display: grid;
         position: relative;
