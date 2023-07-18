@@ -63,7 +63,7 @@ li {
 }
 
 .java img {
-    width: 90px;
+    width: 80px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
@@ -84,21 +84,21 @@ li {
 }
 
 .html img {
-    width: 90px;
+    width: 85px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
 .css img {
-    width: 90px;
+    width: 85px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
 }
 
 .javascript img {
-    width: 90px;
+    width: 85px;
     border-radius: 50%;
     border-style: solid;
     border-color: white;
